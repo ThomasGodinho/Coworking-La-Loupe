@@ -1,0 +1,71 @@
+/**GLOBAL*/
+
+.container {
+    border: 1px solid red;
+    padding: 0;
+}
+
+.container-fluid {
+    border: 1px solid blue;
+    padding: 0;
+}
+
+
+
+.home-logo {
+    background-color: red;
+    height: 100vh;
+}
+
+
+/**DESKTOP - Col MD - */
+
+.col-md-12 {
+    border: 1px solid violet;
+}
+
+.col-md-6 {
+    border: 1px solid yellow;
+}
+
+.col-md-4 {
+    border: 1px solid cyan;
+}
+
+.col-md-8 {
+    border: 1px solid orangered;
+}
+
+.col-md-9 {
+    border: 1px solid royalblue;
+}
+
+
+/**TABLET - Col SM - */
+
+.col-sm-6 {
+    border: 1px solid green;
+}
+
+
+/**PHONE - Col XS - */
+
+.col-xs-12 {
+    border: 1px solid darkred;
+}
+
+.col-xs-4 {
+    border: 3px solid chocolate;
+}
+
+.col-xs-8 {
+    border: 2px solid greenyellow;
+}
+
+/**SECTION ABOUT - ACCUEIL*/
+.p_accueil{
+    background-color: rgb(251, 251, 251)
+}
+.img-container{
+    margin:auto;
+}

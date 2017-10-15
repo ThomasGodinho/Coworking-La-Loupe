@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Co-working La Loupe</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="https://www.linkedin.com/in/thomas-godinho/" content="">
+
+    <!-- Le styles -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato|Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="css/aos.css" />
+
+
+    <style type="text/css">
+        #egggif {
+            position: fixed;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: auto;
+            display: none;
+            z-index: 100000;
+        }
+    </style>
+
+    <!-- <link rel="stylesheet" href="css/temp.css">-->
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="../assets/js/html5shiv.js"></script>
+    <![endif]-->
+
+    <!-- Fav and touch icons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <link rel="mask-icon" href="img/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="theme-color" content="#ffffff">
+</head>
+
+<body>
+    <video id="egggif" width="640" height="480" controls loop="loop">
+        <source src="video/paul.mp4" type="video/mp4"> Your browser does not support the video tag.
+    </video>
+    <div id="wrapper" class="wrapper-container-fluid">
+        
+
+        <div id='scroll_to_top' class='opacity'>
+            <img src="img/arrowup.png" alt="Retourner en haut">
+        </div>
+        <section id="home">
+            <div class="container-fluid">
+
+
+
+                <div id="feedback">
+                    <a href="#popup1">Contactez nous !</a>
+                </div>
+
+
+                <div id="popup1" class="overlay">
+                    <div class="popup">
+                        <div class="div1" style="background:#fff">
+
+                            <a class="close" href="#">×</a>
+
+                            <div class="content" id="quickenquire">
+                                <h2 style="text-align:center">Contact</h2>
+                                <form action="#">
+                                    <label for="name">Nom</label>
+                                    <input type="text" id="name" name="name">
+                                    <label for="email">Email</label>
+                                    <input type="email" id="email" name="email">
+                                    <label for="phone">Téléphone</label>
+                                    <input type="phone" id="phone" name="phone">
+                                    <label for="sujet">Sujet</label>
+                                    <select id="sujet" name="sujet">
+      <option value="reservation">Réservation</option>
+      <option value="devis">Demander un devis </option>
+      <option value="autre">Autre</option>
+    </select>
+
+                                    <label for="comment">Votre Message</label>
+                                    <textarea></textarea>
+
+                                    <input type="submit" value="Envoyer">
+                                </form>
+                            </div>
+                        </div>
+
+
+
+
+                    </div>
+                </div>
+
+
+
+
+
+
+
+                <div class="container-fluid container-navbar navbar">
+                    <div class="navbar navbar-default navbar-fixed-top navbar-custom">
+                        <div class="container navbarcontainer">
+                            <div class="navbar-header">
+                                <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                                    <span class="icon icon-bar"></span>
+                                    <span class="icon icon-bar"></span>
+                                    <span class="icon icon-bar"></span>
+                                </button>
+                                <a class="navbar-brand" href="#"><img class="img-responsive" src="img/logo.png" alt="Logo La Loupe Coworking"></a>
+                            </div>
+                            <div class="collapse navbar-collapse">
+                                <ul class="nav navbar-nav navbar-right">
+                                    <li><a href="#home" class="active smoothScroll">ACCUEIL</a></li>
+                                    <li><a href="#about" class="smoothScroll">A PROPOS</a></li>
+                                    <li><a href="#espaces" class="smoothScroll">ESPACES</a></li>
+                                    <li><a href="#tarifs" class="smoothScroll">TARIFS</a></li>
+                                    <li><a href="#booking" class="smoothScroll">CONTACT</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="videoDiv" class="container-fluid home-logo text-center">
+                    <video id="videoBlock" preload="preload" id="video" autoplay="autoplay" loop="loop">
+                        <source src="video/home.webm" type="video/webm"></source>
+                        <source src="video/home.mp4" type="video/mp4"></source>
+                    </video>
+                    <div id="videoMessage">
+                        <div class="home-headings container">
+
+                            <img class="home-img img-responsive" src="img/logo_2.png" alt="logo">
+                            <h1>Coworking La Loupe</h1>
+                            <h2>Espace de travail partagé</h2>
+                            <button class="btn btn-about"><a href="#about" class="active smoothScroll">EN SAVOIR PLUS</a></button>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="about">
+            <div class="container-fluid">
+                <div class="container">
+                    <div class="row">
+                        <div class="img-container col-md-4 hidden-sm hidden-xs">
+                            <img data-aos="slide-right" data-aos-delay="1200" class="bglogo_a img-responsive" src="img/logo_a.png" alt="Logo">
+                            <img data-aos="fade" data-aos-delay="800" class="bglogo_b img-responsive" src="img/logo_b.png" alt="Logo" style="opacity:0.5;">
+                        </div>
+                        <div class="titre-container col-md-8 col-sm-12">
+                            <p class="p_accueil">Situé au pied de la gare, le <span class="em-text">Coworking La Loupe</span> est un espace de
+                                travail partagé accessible à tous. Plus qu'un simple bureau, c'est un lieu de travail ouvert,
+                                destiné aux entrepreneurs indépendants, télétravailleurs et salariés itinérants.<br> Il vous
+                                permet de travailler dans un bureau à un tarif raisonnable et de rencontrer et échanger avec
+                                des professionnels de divers horizons.<br> Le lieu est porté par la <span class="em-text">Communauté de communes Terres de Perche</span>                                et la <span class="em-text">Wild Code School</span>, l’école de développeurs web.</p>
+                        </div>
+                    </div>
+                </div>
+        </section>
+        <section id="espaces">
+            <div class="container-fluid">
+                <div class="container">
+                    <div class="titre-container col-md-12 col-sm-12 col-xs-12">
+                        <h1>Espaces</h1>
+                        <h2>Venez travailler au Coworking La Loupe, vous y trouverez :</h2>
+                    </div>
+                    <div class="section-group col-md-4 col-sm-4 col-xs-12">
+                        <img data-aos="fade-up" data-aos-delay="300" class="icon-espaces icon-espaces-first" src="img/ico/shared-desk.svg" alt="">
+                        <div class="text-container">
+                            <h3>Open-Space</h3>
+                            <p>Une salle toute équipée de 35m2</p>
+                        </div>
+                    </div>
+
+                    <div class="section-group col-md-4 col-sm-4 col-xs-12">
+                        <div class="img-container">
+                            <img data-aos="fade-up" data-aos-delay="300" class="icon-espaces" src="img/ico/long-sofa.svg" alt="">
+                        </div>
+                        <div class="text-container">
+                            <h3>Espace Détente</h3>
+                            <p>Un espace de repos idéal<br>pour les petites (ou grandes !) pauses</p>
+                        </div>
+                    </div>
+
+                    <div class="section-group col-md-4 col-sm-4 col-xs-12">
+                        <img data-aos="fade-up" data-aos-delay="300" class="icon-espaces" src="img/ico/meeting.svg" alt="">
+                        <div class="text-container">
+                            <h3>Salle de Réunion</h3>
+                            <p>Pouvant accueillir 10 personnes<br>et équipée pour la visioconférence</p>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+            </div>
+        </section>
+        <section id="services">
+            <div class="container-fluid parallax">
+                <div class="container">
+                    <div class="titre-container col-md-12">
+                        <h1>Services</h1>
+                        <h2>Pour travailler dans les meilleures conditions</h2>
+                    </div>
+
+                    <div class="section-group col-md-4 col-sm-4 col-xs-12">
+                        <i data-aos="fade-up" data-aos-delay="300" class="icon-services fa fa-wifi" aria-hidden="true"></i>
+                        <div class="text-container">
+                            <h3>Connexion internet<br>et Wifi haut débit</h3>
+                        </div>
+                    </div>
+
+                    <div class="section-group col-md-4 col-sm-4 col-xs-12">
+                        <i data-aos="fade-up" data-aos-delay="300" class="icon-services fa fa-print" aria-hidden="true"></i>
+                        <div class="text-container">
+                            <h3>Imprimante, Photocopieur<br>et Scan</h3>
+
+                        </div>
+                    </div>
+
+                    <div class="section-group col-md-4 col-sm-4 col-xs-12">
+                        <i data-aos="fade-up" data-aos-delay="300" class="icon-services fa fa-cutlery" aria-hidden="true"></i>
+                        <div class="text-container">
+                            <h3>Espace déjeuner<br>et Cuisine équipée</h3>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="tarifs">
+
+            <div class="container-fluid">
+                <div class="container">
+
+
+                    <div class="titre-container col-md-12">
+                        <h1>Tarifs</h1>
+
+                    </div>
+
+                    <div class="paneldiv col-xs-12 col-sm-12 col-md-4 col-lg-4">
+
+                        <!-- PRICE ITEM -->
+                        <div data-aos="fade-up" data-aos-delay="300" class="panel price panel-white">
+                            <div class="panel-heading arrow_box text-center">
+                                <h3>Hebdomadaire</h3>
+                            </div>
+                            <div class="panel-body text-center">
+                                <p class="lead" style="font-size:30px"><strong>45€ / semaine</strong></p>
+                            </div>
+                            <ul class="list-group list-group-flush text-center">
+                                <li class="list-group-item"><i class="tarif-icon fa fa-calendar-minus-o" aria-hidden="true"></i></li>
+                                <li class="list-group-item"><i class="icon-ok text-success"></i>Du lundi au vendredi</li>
+
+                            </ul>
+                            <div class="panel-footer">
+                                <a class="btn btn-lg btn-block btn-default smoothScroll" href="#booking">réserver</a>
+                            </div>
+                        </div>
+                        <!-- /PRICE ITEM -->
+
+
+                    </div>
+
+
+                    <div class="paneldiv col-xs-12 col-sm-12 col-md-4 col-lg-4">
+
+                        <!-- PRICE ITEM -->
+                        <div id="opex" data-aos="fade-up" data-aos-delay="300" class="panel price panel-white">
+                            <div class="panel-heading arrow_box text-center">
+                                <h3>Quotidien</h3>
+                            </div>
+                            <div class="panel-body text-center">
+                                <p class="lead" style="font-size:30px"><strong>10€ / jour</strong></p>
+                            </div>
+                            <ul class="list-group list-group-flush text-center">
+                                <li class="list-group-item"><i class="tarif-icon fa fa-clock-o" aria-hidden="true"></i></li>
+                                <li class="list-group-item"><i class="icon-ok text-success"></i> L'offre la plus flexible</li>
+
+                            </ul>
+                            <div class="panelblue panel-footer">
+                                <a class="btn btn-lg btn-block btn-default smoothScroll btnblue" href="#booking">réserver</a>
+                            </div>
+                        </div>
+                        <!-- /PRICE ITEM -->
+
+
+                    </div>
+
+
+                    <div class="paneldiv col-xs-12 col-sm-12 col-md-4 col-lg-4">
+
+                        <!-- PRICE ITEM -->
+                        <div data-aos="fade-up" data-aos-delay="300" class="panel price panel-white">
+                            <div class="panel-heading arrow_box text-center">
+                                <h3>Mensuel</h3>
+                            </div>
+                            <div class="panel-body text-center">
+                                <p class="lead" style="font-size:30px"><strong>170€ / mois</strong></p>
+                            </div>
+                            <ul class="list-group list-group-flush text-center">
+                                <li class="list-group-item"><i class="tarif-icon fa fa-calendar" aria-hidden="true"></i></li>
+                                <li class="list-group-item"><i class="icon-ok text-success"></i> L'offre la plus économique</li>
+                            </ul>
+                            <div class="panel-footer">
+                                <a class="btn btn-lg btn-block btn-default smoothScroll" href="#booking">réserver</a>
+                            </div>
+                        </div>
+                        <!-- /PRICE ITEM -->
+
+
+                    </div>
+
+
+                </div>
+            </div>
+
+
+
+
+
+
+        </section>
+
+
+
+
+
+        <section id="booking" class="booking-container">
+            <div class="container">
+                <div class="footer_logo col-xs-12">
+                    <img class "img-responsive" src="img/logo_2.png" alt="Logo"></a>
+                </div>
+
+                <div class="titre-container-footer col-md-12">
+                    <h1>Contactez-nous</h1>
+                </div>
+
+                <div class="text-container-footer col-md-6 col-sm-6 col-xs-12" data-aos="fade-right" data-aos-delay="300">
+
+                    <form id="contact-form" method="post" action="contact.php" role="form">
+
+                        <div class="messages"></div>
+
+                        <div class="controls">
+
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="form-group">
+
+                                        <input id="form_name" type="text" name="name" class="form-control" placeholder="Nom" required="required" data-error="Le nom est requis.">
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="form-group">
+
+                                        <input id="form_email" type="email" name="email" class="form-control" placeholder="Email" required="required" data-error="Une adresse mail valide est requise.">
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="form-group">
+
+                                        <input id="form_phone" type="tel" name="phone" class="form-control" placeholder="Téléphone">
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <select class="form-control" id="sujet">
+                                    <option>Réservation</option>
+                                    <option>Demander un devis</option>
+                                    <option>Autre</option>
+                                  </select>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="form-group">
+
+                                        <textarea id="form_message" name="message" class="form-control" placeholder="Message" rows="4" required="required" data-error="Merci de nous laisser un message."></textarea>
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <input type="submit" class="btn btn-booking btn-send" value="ENVOYER">
+                                </div>
+                            </div>
+                        </div>
+
+                    </form>
+
+                </div>
+                <div class="text-container-footer col-md-6 col-sm-6 col-xs-12 contactinfo" data-aos="fade-left" data-aos-delay="300">
+                    <p><a href="https://www.google.fr/maps?q=la+capsule+reims&amp;bav=on.2,or.r_cp.&amp;biw=1440&amp;bih=689&amp;dpr=2&amp;um=1&amp;ie=UTF-8&amp;sa=X&amp;ved=0ahUKEwjqwdqP7_PTAhUE1RoKHV-3AKwQ_AUICCgD"><i class="fa fa-map-marker contact" aria-hidden="true"></i></a>18
+                        rue de la gare – 28240 La Loupe</p>
+
+                    <p><i class="fa fa-wheelchair contact" aria-hidden="true"></i>Accès au 2ème étage avec ascenseur</p>
+
+                    <p><i class="fa fa-clock-o contact" aria-hidden="true"></i>Du lundi au vendredi de 9h à 18h</p>
+
+                    <p><i class="fa fa-phone contact" aria-hidden="true"></i>06 19 34 42 37</p>
+
+                    <p><i class="fa fa-paper-plane-o contact" aria-hidden="true"></i><a href="mailto:contact@coworkinglaloupe.fr">contact@coworkinglaloupe.fr</a></p>
+                </div>
+            </div>
+    </div>
+    </section>
+    <footer>
+        <div class="footer-bottom">
+
+            <div class="container container-footer">
+
+                <div class="row">
+
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+
+                        <div class="copyright">
+
+                            ©
+                            <script type="text/javascript">
+                                document.write(new Date().getFullYear());
+                            </script> Coworking La Loupe
+
+
+
+                        </div>
+
+                    </div>
+
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+
+                        <div class="design">
+
+                            <a href="#">Communauté de Communes </a> | <a target="_blank" href="http://www.wildcodeschool.fr">Made with <span class="love"> ❤ </span> by Wilders</a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    <!--WRAPPER-->
+
+
+    <script type="text/javascript" src="js/aos.js"></script>
+
+
+    <!-- -----Scripts----- -->
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="js/collapse.js"></script>
+    <script src="js/smoothscroll.js"></script>
+   
+
+   <script type="text/javascript" src="https://cdn.rawgit.com/mikeflynn/egg.js/master/egg.min.js"></script>
+    <script>
+        AOS.init({
+            disable: 'mobile'
+        });
+    </script>
+    <script type="text/javascript">
+        var egg = new Egg();
+        egg.addCode("p,a,u,l", function () {
+            jQuery('#egggif').fadeIn(500, function () {
+                window.setTimeout(function () {
+                    jQuery('#egggif').hide();
+                }, 15000);
+            });
+        }, "konami-code");
+        egg.addHook(function () {
+            console.log("Hook called for: " + this.activeEgg.keys);
+            console.log(this.activeEgg.metadata);
+        });
+        egg.listen();
+    </script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            function scroll_to_top(div) {
+                $(div).click(function () {
+                    $('html,body').animate({
+                        scrollTop: 0
+                    }, 'slow');
+                });
+                $(window).scroll(function () {
+                    if ($(window).scrollTop() < 2000) {
+                        $(div).fadeOut();
+                    } else {
+                        $(div).fadeIn();
+                    }
+                });
+            }
+            scroll_to_top("#scroll_to_top");
+        });
+    </script>
+
+</body>
+
+</html>
